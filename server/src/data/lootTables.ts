@@ -237,6 +237,7 @@ export const LootTables: Record<string, Record<string, LootTable>> = {
         ],
         lux_crate: [
             [{ item: "cz600", weight: 1 }],
+            [{ item: "usas-12", weight: 0.5 }],
             [{ table: "scopes", weight: 1 }]
         ],
         gold_rock: [
@@ -853,7 +854,8 @@ export const LootTables: Record<string, Record<string, LootTable>> = {
             { item: "vector", weight: 0.4 },
             { item: "stoner_63", weight: 0.08 },
             { item: "tango_51", weight: 0.08 },
-            { item: "g19", weight: 0.08 }
+            { item: "g19", weight: 0.0008 }
+            [{ item: "usas-12", weight: 0.5 }],
         ],
         plumpkin: {
             min: 3,
