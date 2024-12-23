@@ -1494,18 +1494,18 @@ export const Obstacles = ObjectDefinitions.withDefault<ObstacleDefinition>()(
                     }
                 }
             ),
-            {
-                [inheritFrom]: "regular_crate",
-                idString: "frozen_crate",
-                name: "Frozen Crate",
-                material: "ice",
-                health: 1000,
-                variations: 2,
-                frames: {
-                    residue: "regular_crate_residue",
-                    particle: "window_particle"
-                },
-                hideOnMap: true
+           // {
+           //      [inheritFrom]: "regular_crate",
+           //      idString: "frozen_crate",
+           //      name: "Frozen Crate",
+           //      material: "ice",
+           //      health: 1000,
+           //      variations: 2,
+           //      frames: {
+           //          residue: "regular_crate_residue",
+           //          particle: "window_particle"
+           //      },
+           //      hideOnMap: true
             },
             ...withWinterVariation([
                 {
@@ -1626,24 +1626,24 @@ export const Obstacles = ObjectDefinitions.withDefault<ObstacleDefinition>()(
                     particle: "furniture_particle"
                 }
             },
-            {
-                idString: "rocket_box",
-                name: "Firework rocket box",
-                material: "cardboard",
-                health: 45,
-                scale: {
-                    spawnMin: 1,
-                    spawnMax: 1,
-                    destroy: 0.6
-                },
-                spawnMode: MapObjectSpawnMode.GrassAndSand,
-                hitbox: RectangleHitbox.fromRect(4, 4),
-                rotationMode: RotationMode.Limited,
-                hasLoot: true,
-                frames: {
-                    particle: "box_particle",
-                    residue: "box_residue"
-                }
+            // {
+            //     idString: "rocket_box",
+            //     name: "Firework rocket box",
+            //     material: "cardboard",
+            //     health: 45,
+            //     scale: {
+            //         spawnMin: 1,
+            //         spawnMax: 1,
+            //         destroy: 0.6
+            //     },
+            //     spawnMode: MapObjectSpawnMode.GrassAndSand,
+            //     hitbox: RectangleHitbox.fromRect(4, 4),
+            //     rotationMode: RotationMode.Limited,
+            //     hasLoot: true,
+            //     frames: {
+            //         particle: "box_particle",
+            //         residue: "box_residue"
+            //     }
             },
             {
                 idString: "confetti_grenade_box",
